@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="main-content">
+        <div class="hero-text">
+            <p>This is not a real online service! You know you need something lke this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="form-container">
+            <h1>Let's do this!</h1>
+            <form>
+                <p>
+                    <label for="first-name">
+                        <span>FIRST NAME</span>
+                    </label>
+                    <input type="text" name="fname" id="first-name" />
+                </p>
+                <p>
+                    <label for="last-name">
+                        <span>LAST NAME</span>
+                    </label>
+                    <input type="text" name="lname" id="last-name" />
+                </p>
+                <p>
+                    <label for="mail">
+                        <span>EMAIL</span>
+                    </label>
+                    <input type="email" name="user-mail" id="mail" />
+                </p>
+                <p>
+                    <label for="phone">
+                        <span>FIRST NAME</span>
+                    </label>
+                    <input type="tel" name="phone" id="phone" />
+                </p>
+                <p>
+                    <label for="password">
+                        <span>PASSWORD</span>
+                        <strong><span aria-label="required">*</span></strong>
+                    </label>
+                    <input type="password" name="pwd" id="password" required/>
+                </p>
+                <p>
+                    <label for="confpassword">
+                        <span>CONFIRM PASSWORD</span>
+                        <strong><span aria-label="required">*</span></strong>
+                    </label>
+                    <input type="password" name="pwd" id="password" required/>
+                </p>
+            </form>
+        </div>
+        <div class="submit-container">
+            <button type="submit">Create Account</button>
+        </div>
+        <p>Already have an account? <a href="">Log in</a></p>
+    </div>
+</body>
+</html>

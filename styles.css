@@ -1,0 +1,80 @@
+:root {
+    background-image: url("./images/HORMIZD_1920x1080.png");
+}
+
+body {
+    margin: 0;
+}
+
+.main-content {
+    background-color: #f8f9fa;
+    float: right;
+    width: 60%;
+    height: 100vh;
+    padding-top: 8rem;
+}
+
+p,
+h1,
+button {
+    margin-left: 5%;
+}
+
+h1 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.hero-text {
+    width: 60%;
+}
+
+.hero-text>p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.hero-text>p:nth-child(2) {
+    margin-top: 0px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    filter: drop-shadow(0px 20px 10px #01010125 );
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.form-container>form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+input,
+label {
+    display: block;
+}
+
+label {
+    font-size: 0.75rem;
+    color:  #253545;
+}
+
+input {
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #506848;
+    border: none;
+    border-radius:  .5rem;
+    width: 14rem;
+    height: 2.5rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
