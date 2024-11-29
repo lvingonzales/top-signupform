@@ -1,16 +1,33 @@
+@import url(https://fonts.bunny.net/css?family=aclonica:400|roboto:500);
+
 :root {
+    --link-color: #596D48;
     background-image: url("./images/HORMIZD_1920x1080.png");
+    height: 100%;
 }
 
 body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+    height: 100%;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 12rem;
+    background-color: #01010150;
+    margin-top: 12rem;
 }
 
 .main-content {
     background-color: #f8f9fa;
     float: right;
     width: 60%;
-    height: 100vh;
+    height: 100%;
     padding-top: 8rem;
 }
 
@@ -26,7 +43,7 @@ h1 {
 }
 
 .hero-text {
-    width: 60%;
+    width: 65%;
 }
 
 .hero-text>p {
@@ -41,7 +58,7 @@ h1 {
 
 .form-container {
     background-color: #ffffff;
-    filter: drop-shadow(0px 20px 10px #01010125 );
+    box-shadow: 0px 20px 10px #01010125;
     margin-bottom: 3rem;
     margin-top: 4rem;
 }
@@ -66,15 +83,52 @@ input {
     width: 20rem;
     height: 1.5rem;
     border-radius: 5px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    border-color: aqua;
+    box-shadow: 0rem .5rem 1rem #01010140;
+}
+
+input.req:invalid {
+    border-color: red;
+}
+
+input.req:valid { 
+    border-color: green;
+}
+
+#pwd-conf {
+    color: red;
+    font-size: 0.75rem;
 }
 
 button {
-    background-color: #506848;
+    background-color: var(--link-color);
     border: none;
     border-radius:  .5rem;
-    width: 14rem;
+    width: 15rem;
     height: 2.5rem;
     color: white;
     font-size: 1rem;
     font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#logo {
+    max-height: 90%;
+}
+
+#logo-name {
+    font-size: 6rem;
+    color: white;
+    font-family: 'Aclonica';
+}
+
+a:visited {
+    color: var(--link-color)
 }

@@ -8,9 +8,13 @@
     <title>Sign Up Form</title>
 </head>
 <body>
+    <div class="logo-wrapper">
+        <img src="./images/odin-lined.png" alt="logo" id="logo">
+        <span id="logo-name">LIAM</span>
+    </div>
     <div class="main-content">
         <div class="hero-text">
-            <p>This is not a real online service! You know you need something lke this in your life to help you realize your deepest dreams.</p>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
             <p>Sign up <em>now</em> to get started.</p>
             <p>You <em>know</em> you want to.</p>
         </div>
@@ -46,14 +50,15 @@
                         <span>PASSWORD</span>
                         <strong><span aria-label="required">*</span></strong>
                     </label>
-                    <input type="password" name="pwd" id="password" required/>
+                    <input type="password" name="pwd" id="password" class="req" required/>
+                    <span id="pwd-conf">*Passwords do not match</span>
                 </p>
                 <p>
                     <label for="confpassword">
                         <span>CONFIRM PASSWORD</span>
                         <strong><span aria-label="required">*</span></strong>
                     </label>
-                    <input type="password" name="pwd" id="password" required/>
+                    <input type="password" name="pwd" id="password" class="req" required/>
                 </p>
             </form>
         </div>
