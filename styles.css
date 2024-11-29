@@ -34,7 +34,7 @@ body {
 p,
 h1,
 button {
-    margin-left: 5%;
+    margin-left: 3rem;
 }
 
 h1 {
@@ -127,6 +127,10 @@ button:hover {
     font-size: 6rem;
     color: white;
     font-family: 'Aclonica';
+}
+
+#logo, #logo-name {
+    cursor: pointer;
 }
 
 a:visited {
